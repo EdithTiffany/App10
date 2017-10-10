@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App10"
+             x:Class="App10.MainPage">
+<ContentPage>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="" Placeholder="" IsEnabled="False" x:Name="caja" Clicked="cj"/>
+            <Button Text="Limpar" Clicked="lp_Clicked" BackgroundColor="LightSkyBlue"/>
+            <Image Source="imagen1.jpg" AnchorX="80" AnchorY="80"></Image>
+                
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+         
+            <Image Source="imagen2.jpg" AnchorX="50" AnchorY="50"></Image>
+           
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="imagen3.jpg"></Image>
+        </StackLayout>
+        </ContentPage>
+
+        <ContentPage>
+        <StackLayout>
+            <Image x:Name="F1" Aspect="Fill" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout>
+            <Image x:Name="F2" Aspect="Fill" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout>
+            <Image x:Name="F3" Aspect="Fill" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout>
+            <Image x:Name="F4" Aspect="Fill" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage>
+
+
+</CarouselPage>
